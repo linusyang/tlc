@@ -55,10 +55,9 @@ SERIOUS := 1
 ############################################################################
 # Binaries
 
-COQC   := $(COQBIN)coqc $(COQFLAGS) 
+COQC   := $(COQBIN)coqc $(COQFLAGS)
 COQDEP := $(COQBIN)coqdep
 COQIDE := $(COQBIN)coqide $(COQFLAGS)
-COQCHK := $(COQBIN)coqchk
 
 ############################################################################
 # Targets
